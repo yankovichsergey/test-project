@@ -1,0 +1,17 @@
+.card-content{
+  height: 130px;
+}
+.marked{
+  font-weight: bold;
+  font-size: 30px;
+}
+.card{
+  transition: all .5s;
+}
+.hover{
+  color: red !important;
+  transform: scale(1.1);
+  transition: all .5s;
+  box-shadow:  0 0 10px #fafafa;
+  z-index: 10;
+}
